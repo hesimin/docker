@@ -17,7 +17,7 @@ COPY spring-boot.sh spring-boot.sh
 RUN chmod +x spring-boot.sh
 
 
-VOLUME ["/data"]
+# VOLUME ["/data"]
 
 # EXPOSE 22
 
